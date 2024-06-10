@@ -4,6 +4,7 @@ alias cls="clear"
 alias g="git"
 alias n="nvim"
 alias m="micro"
+alias py="python"
 
 # TODO: Replace journal aliases after switching to OpenRC
 
@@ -31,4 +32,5 @@ set -gx BROWSER /usr/bin/firefox
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    neofetch
 end
